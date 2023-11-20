@@ -1,0 +1,326 @@
+/*
+Prince Timilsina Presents amazon's clone(home page) page's source code (only frontend)
+                            */
+
+                /*This is Style Sheet of Amazon's clone*/
+
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+     height: 60px;
+     background-color: #071111;
+     color:white;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+}
+
+.navlogo{
+   height: 55px;
+   width: 120px;
+}
+
+.logo{                                                                                                                                            
+    background-size: cover;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+ .border:hover{
+    border: 1.5px solid white;
+    border-radius: 1.5px;
+ }
+
+
+ /*     box 2 */
+ .add-first{
+       color: #cccccc;
+       font-size: 0.75rem;
+       margin-left: 15px;
+ }
+
+ .add-second{
+      font-size: 0.95rem;
+      margin-left: 3px;
+}
+
+ .add-icon{
+    display: flex;
+    align-items: center;
+ }
+
+ .nav-address{
+    height: 30px;
+    width: 80px;
+    padding: 6px;
+    margin: 6px;
+ }
+
+
+ /*box 3*/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 40px;
+    background-color: rgb(247, 203, 210);
+    border-radius: 4px;
+    margin: 8px;
+}
+
+.search-select{
+    width:50px;
+    padding: 5px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px;
+    border:none;
+}
+
+.search-input{
+    width:100%;
+    font-size: 0.97rem;
+    border: none;
+    font-family:"Arial";
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+}
+
+.nav-search:hover{
+      border: 2px solid orange;
+}
+
+
+/*box4*/
+span{
+    font-size: 0.8rem;
+}
+
+.nav-second{
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.nav-signin{
+    padding: 6px;
+}
+
+
+/*box-5*/
+
+.nav-return{
+    padding: 6px;
+}
+
+
+/*box-6*/
+
+.nav-cart i{
+     font-size: 35px;
+     padding: 7px;
+     align-items: center;
+}
+
+/*panel*/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display:flex;
+    color: white;
+    align-items: center;
+}
+
+.panel-ops p{
+    display: inline;
+}
+
+.panel-ops{
+    width: 70%;
+}
+
+.panel-all{
+    word-spacing: 4px;
+    padding: 12px;
+}
+
+
+/*hero section*/
+
+
+
+/**/
+/*shop section*/
+.hero-section{
+    background-color: rgb(223, 223, 223);
+}
+  .container {
+    display: flex;
+    
+    justify-content: center;
+    
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+
+  
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+  
+.box{
+    margin-top: 15px;
+     height: 385px;
+    margin: 45px;
+    width: 22%;
+    justify-content: space-evenly;
+    background-color: white;
+
+}
+
+
+.box1{
+    position: absolute;
+    top: 41.85%;
+    left:0%;
+    margin-left: 27px;
+    padding: 20px 0px 15px;
+  }
+
+.box2 {
+    position: absolute;
+    top: 70%;
+    left: 34.78%;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0px 15px ;
+ 
+  }
+
+  .box3{
+    position: absolute;
+    top: 41.85%;
+    left:48.37%;
+    padding: 20px 0px 15px;
+  }
+  .box4{
+    position: absolute;
+    top: 41.85%;
+    left: 73%;
+    padding: 20px 0px 15px;
+  }
+  
+.box-img{
+    height: 300px;
+    overflow: hidden;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: #060a44;
+    size: 1px;
+}
+.box5,.box6,.box7,.box8{
+    padding-top: 30px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 90px;
+}
+.box9,.box10,.box11,.box12{
+    padding-top: 30px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 30px;
+}
+  
+/**footer**/
+
+.footer{
+ margin-top: 15px;
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #DDDDDD;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.3px solid white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+    height: 80px;
+}
+.pages{
+ font-size: 0.7rem;
+ padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+    font-size: 0.7rem;
+}
+                                              
+
+                                           /*-Completed on NOVEMBER 20 2023*/
